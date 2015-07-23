@@ -1,6 +1,6 @@
 var Xml2Json = function (node)
 {
-    var ret = {}, childes;
+    var ret, childes;
 
     if(node.nodeType != 3)
     {
